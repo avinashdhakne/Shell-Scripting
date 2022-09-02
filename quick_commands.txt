@@ -1,0 +1,5 @@
+# shell types that Linux operating system supports
+cat etc/passwd
+
+# where bash is located 
+which bash
