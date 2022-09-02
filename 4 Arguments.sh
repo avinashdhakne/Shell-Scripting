@@ -1,6 +1,12 @@
 # pass arguments to a file
 echo $1 $2 $3 "> $1 $2 $3"
 
+# Returns a single string (``$1, $2 ... $n'') comprising all of the positional parameters separated by the internal field separator character.
+echo $*
+
+# Refers to the number of arguments specified on a command line.
+echo Count of arguments is: $#
+
 # Notice the difference between following commands
 echo
 echo $1 $2 $3 '> $1 $2 $3'
@@ -8,6 +14,7 @@ echo $1 $2 $3 > $1 $2 $3
 echo $1 $2 $3 "> $1 $2 $3"
 
 # If we write 0th argement then it will store the file name
+# $0 Refers to the name of the script itself.
 echo $0 $1 $2 $3 '> $1 $2 $3'
 
 # Other approch to store the arguments
