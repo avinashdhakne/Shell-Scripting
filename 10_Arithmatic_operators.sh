@@ -1,6 +1,7 @@
 # echo consider everything as a string and print it
 echo 1 + 1
 
+# Note -> This all approches is valid for decimal number but not for floating point number
 num1=50
 num2=10
 echo Approch 1:
