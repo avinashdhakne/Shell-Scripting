@@ -1,6 +1,16 @@
 # take the argument with the file name
 vehicle=$1
 
+# Switch case syntex ->
+# case $var in
+#     val1)
+#         statements;;
+#     val2)
+#         statements;;
+#     *)
+#         statements;;
+# esac
+
 case $vehicle in
     "car" )
         echo "$vehicle has 4 wheels" ;;

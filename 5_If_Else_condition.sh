@@ -20,6 +20,17 @@
 #   >   - is greater than, in ASCII alphabetical order  - if [[ "$a" > "$b" ]]
 #   -z  - string is null, that is, has zero length
 
+# If-Else syntex ->
+# if [ expression ];
+# then
+#     statements
+# elif [ expression ];
+# then
+#     statements
+# else
+#     statements
+# fi
+
 # If-Else condition
 num=10
 if [ $num -eq 10 ]
