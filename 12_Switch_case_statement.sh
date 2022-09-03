@@ -19,6 +19,7 @@ esac
 # ?     -> Matches a string with exactly one character like a, !, and so on.
 # *     -> Matches a string with one or more characters (a nonempty string).
 
+# Regular Expression example
 echo -e "Enter some character : \c"
 read value
 
@@ -34,3 +35,5 @@ case $value in
     * )
         echo "Unknown input" ;;
 esac
+
+# Note -> if there is an error for capital case letter then enter command $LANG=C
