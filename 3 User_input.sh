@@ -43,3 +43,4 @@ echo "Your Friends are: ${friend[0]}, ${friend[1]}, ${friend[2]}"
 echo "Enter the variable: "
 read 
 echo "Your variable is: $REPLY"
+
