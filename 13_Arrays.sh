@@ -37,7 +37,7 @@
 # echo "New Length: ${#os[@]}"
 
 # Note bash consider variables also as an array and its value is assigned with 0th index
-varArray=avinash
+varArray=(avinash dhakne)
 echo "Array: ${varArray[@]}"
 echo "Array: ${varArray[1]}"
 echo "Indices: ${!varArray[@]}"
