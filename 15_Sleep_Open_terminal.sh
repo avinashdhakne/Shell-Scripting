@@ -18,3 +18,4 @@ do
     # syntex -> terminal_name &
     cons0 &
 done
+

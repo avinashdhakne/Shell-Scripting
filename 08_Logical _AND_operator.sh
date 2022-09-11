@@ -2,7 +2,7 @@
 echo Enter your marks: 
 read -s marks 
 
-# Approch 1 to use AND operator
+# Approach 1 to use AND operator
 if [ $marks -le 100 ] && [ $marks -ge 35 ]
 then 
     echo "You are passed!"
@@ -13,7 +13,7 @@ else
     echo "Invalid Input!"
 fi
 
-# Approch 2 to use AND operator
+# Approach 2 to use AND operator
 # -a flag stands for AND operator
 if [ $marks -le 100 -a $marks -ge 35 ]
 then 
@@ -25,7 +25,7 @@ else
     echo "Invalid Input!"
 fi
 
-# Approch 3 to use AND operator
+# Approach 3 to use AND operator
 if [[ $marks -le 100 && $marks -ge 35 ]]
 then 
     echo "You are passed!"

@@ -5,7 +5,7 @@ echo 1 + 1
 num1=50
 num2=10
 echo Approch 1:
-# Approch 1 to perform arithmatic operations
+# Approach 1 to perform arithmatic operations
 echo $(( num1 + num2 )) # addition
 echo $(( num1 - num2 )) # substraction
 echo $(( num1 * num2 )) # multiplication
@@ -23,7 +23,7 @@ echo
 num1=20
 num2=5
 echo Approch 2:
-# Approch 2 to perform arithmatic operations
+# Approach 2 to perform arithmatic operations
 echo $(expr $num1 +  $num2 ) # addition
 echo $(expr $num1 -  $num2 ) # substraction
 echo $(expr $num1 \* $num2 ) # multiplication -> we have to use escape character '\'

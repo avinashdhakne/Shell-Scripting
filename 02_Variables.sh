@@ -1,4 +1,4 @@
-# Variables are of two types 
+# Variables are of two types
 
 # 1. System Variables:
 # - Created and maintained by system
@@ -22,7 +22,8 @@ echo "This is name: "$name
 
 # Variables should not be start with number
 22var=Dhakne
-echo &22var # Error
+echo &
+22var # Error
 
 # Variables are case sensitive
 VAR=name

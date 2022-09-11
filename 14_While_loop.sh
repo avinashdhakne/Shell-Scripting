@@ -1,9 +1,9 @@
 # # While loop syntex
-# while [ condition ]
-# do 
-#     statement
-#     statement
-# done
+    # while [ condition ]
+    # do 
+    #     statement
+    #     statement
+    # done
 
 # print 1 to n number
 num1=1
