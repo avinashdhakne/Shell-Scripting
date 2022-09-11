@@ -53,3 +53,37 @@ for (( i=200; i<220; i=i+2))
 do 
     echo $i
 done
+
+# Practise Questions
+
+# Run the command using for loop
+for command in ls date pwd
+do 
+    echo "--------------------$command---------------------"
+    $command
+    echo "-------------------------------------------------"
+done
+
+# Print all the script files in directry
+for item in *.sh
+do 
+    echo $item
+done
+
+# Print all the directries in folder
+for item in /e/Coding/*
+do 
+    if [ -d $item ]
+    then 
+        echo Directry Name: $item
+    fi 
+done
+
+# Print all the files in folder
+for item in /e/Coding/*
+do 
+    if [ -f $item ]
+    then 
+        echo Directry Name: $item
+    fi 
+done
