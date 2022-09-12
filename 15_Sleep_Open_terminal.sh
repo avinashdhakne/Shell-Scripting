@@ -15,7 +15,7 @@ do
     echo $num2
     (( num2++ ))
     # This will open the one terminal for every iteration
-    # syntex -> terminal_name &
+    # syntax -> terminal_name &
     cons0 &
 done
 

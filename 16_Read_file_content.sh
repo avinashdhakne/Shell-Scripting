@@ -13,9 +13,10 @@ do
     sleep 3
 done
 
-# Approach 3: IFS (Internal field seperator)
+# Approach 3: IFS (Internal field separator)
 while IFS=' ' read line
 do 
     echo $line
     sleep 3
 done < test.txt
+

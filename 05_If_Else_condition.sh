@@ -20,7 +20,7 @@
 #   >   - is greater than, in ASCII alphabetical order  - if [[ "$a" > "$b" ]]
 #   -z  - string is null, that is, has zero length
 
-# If-Else syntex ->
+# If-Else syntax ->
 # if [ expression ];
 # then
 #     statements
@@ -37,19 +37,19 @@ if [ $num -eq 10 ]; then # don't forgot to give a space before and after the con
     echo Number is 10
 fi
 
-# For arithmatic operators we could use double bracket also
+# For arithmetic operators we could use double bracket also
 if (($num > 7)); then
     echo Number is 10
 fi
 
-# String comparision
+# String comparison
 word=avinash
 if [ $word = avinash ]; then
     echo Name is same
 fi
 
 char=a
-# in case of <, > and -z  operators use [[ ]] brakets
+# in case of <, > and -z operators use [[ ]] brackets
 if [[ $char < b ]]; then
     echo b is larger than a
 fi
@@ -64,3 +64,5 @@ elif (($marks >= 35)); then
 else
     echo You failed!
 fi
+
+

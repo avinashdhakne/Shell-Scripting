@@ -1,13 +1,13 @@
-# echo consider everything as a string and print it
+# Echo considers everything as a string and print it
 echo 1 + 1
 
-# Note -> This all approches is valid for decimal number but not for floating point number
+# Note -> This all approaches are valid for decimal number but not for floating point number
 num1=50
 num2=10
-echo Approch 1:
-# Approach 1 to perform arithmatic operations
+echo Approach 1:
+# Approach 1 to perform arithmetic operations
 echo $(( num1 + num2 )) # addition
-echo $(( num1 - num2 )) # substraction
+echo $(( num1 - num2 )) # subtraction
 echo $(( num1 * num2 )) # multiplication
 echo $(( num1 / num2 )) # division
 echo $(( num1 % num2 )) # modulo
@@ -22,10 +22,10 @@ echo num2: $num2
 echo
 num1=20
 num2=5
-echo Approch 2:
-# Approach 2 to perform arithmatic operations
+echo Approach 2:
+# Approach 2 to perform arithmetic operations
 echo $(expr $num1 +  $num2 ) # addition
-echo $(expr $num1 -  $num2 ) # substraction
+echo $(expr $num1 -  $num2 ) # subtraction
 echo $(expr $num1 \* $num2 ) # multiplication -> we have to use escape character '\'
 echo $(expr $num1 /  $num2 ) # division
 echo $(expr $num1 %  $num2 ) # modulo
@@ -36,3 +36,4 @@ echo $(expr num1$++ )      # post-increment
 echo num1: $num1
 echo $(expr $num2-- )     # post-decrement
 echo num2: $num2
+

@@ -1,7 +1,7 @@
-# take the argument with the file name
+# Take the argument with the file name
 vehicle=$1
 
-# Switch case syntex ->
+# Switch case syntax ->
 # case $var in
 #     val1)
 #         statements;;
@@ -25,12 +25,12 @@ esac
 
 # [a-z] -> Specifies a range which matches any lowercase letter from “a” to “z”
 # [A-Z] -> Specifies a range which matches any lowercase letter from “A” to “Z”
-# [0-9] -> Specifies a range which matches any value 0 to 9″ ;;
-# ?     -> Matches a string with exactly one character like a, !, and so on.
+# [0-9] -> Specifies a range which matches any value 0 to 9″;;
+# ?     -> Matches a string with exactly one character like a,! and so on.
 # *     -> Matches a string with one or more characters (a nonempty string).
 
 # Regular Expression example
-echo -e "Enter some character : \c"
+echo -e "Enter some character: \c"
 read value
 
 case $value in
@@ -47,3 +47,4 @@ case $value in
 esac
 
 # Note -> if there is an error for capital case letter then enter command $LANG=C
+

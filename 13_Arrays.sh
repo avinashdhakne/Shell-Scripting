@@ -1,6 +1,6 @@
-# Bash only support simple one diamentional array
+# Bash only supports simple one dimensional array
 
-# Array defination
+# Array definition
 # Observe the declaration pattern
 os=( "Linux" Windows 'Unix' 'Mac' )
 
@@ -16,7 +16,7 @@ echo "Length: ${#os[@]}"
 
 # Add element to an array
 os[4]=Android
-#update the element in array
+# Update the element in array
 os[3]=iOS
 echo "New Array: ${os[@]}"
 
@@ -42,5 +42,6 @@ echo "Array: ${varArray[@]}"
 echo "Array: ${varArray[1]}"
 echo "Indices: ${!varArray[@]}"
 echo "Length: ${#varArray[@]}"
+
 
 

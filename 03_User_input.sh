@@ -1,7 +1,6 @@
-User Input
+# User Input
 
-Ente will terminate the user input
-
+# Enter will terminate the user input
 # Single Input
 echo Enter the variable
 read name
@@ -24,13 +23,13 @@ echo Enter your password:
 read -s password
 echo Your password is: $password
 
-# Enter User infomation
+# Enter User information
 read -p "User Name: " userName1
 read -sp "Password: " password1
 
 echo
 echo
-echo User infomation is
+echo User information is
 echo userName: $userName1
 echo password: $password1
 
@@ -39,7 +38,9 @@ echo "Enter Your Friends: "
 read -a friend
 echo "Your Friends are: ${friend[0]}, ${friend[1]}, ${friend[2]}"
 
-# If you havent store the input in any variable then it get stored in default variable 'REPLY'
+# If you haven’t store the input in any variable then it get stored in default variable 'REPLY'
 echo "Enter the variable: "
 read
 echo "Your variable is: $REPLY"
+
+

@@ -1,4 +1,4 @@
-# syntex 1:
+# Syntax 1:
     # for VARIABLE in 1 2 3... N
     # do 
     #     command1
@@ -6,7 +6,7 @@
     #     commandN
     # done 
 
-# syntex 2:
+# Syntax 2:
     # for VARIABLE in file1 file2 file3
     # do 
     #     command1 on $VARIABLE
@@ -14,7 +14,7 @@
     #     commandN
     # done 
 
-# sytnex 3:
+# Syntax 3:
     # for OUTPUT on $(Linux-command-here)
     # do 
     #     command1 on $OUTPUT
@@ -22,7 +22,7 @@
     #     commandN
     # done 
 
-# sytnex 4:
+# Syntax 4:
     # for (( EXP1; EXP2; EXP3 ))
     # do 
     #     command1
@@ -30,7 +30,7 @@
     #     commandN
     # done
 
-# syntex 5:
+# Syntax 5:
     # for VARIABLE in {START..END..INCREMENT/DECREMENT}
     # do 
     #     condition1
@@ -64,18 +64,18 @@ do
     echo "-------------------------------------------------"
 done
 
-# Print all the script files in directry
+# Print all the script files in directory
 for item in *.sh
 do 
     echo $item
 done
 
-# Print all the directries in folder
+# Print all the directories in folder
 for item in /e/Coding/*
 do 
     if [ -d $item ]
     then 
-        echo Directry Name: $item
+        echo Directory Name: $item
     fi 
 done
 
@@ -84,6 +84,7 @@ for item in /e/Coding/*
 do 
     if [ -f $item ]
     then 
-        echo Directry Name: $item
+        echo Directory Name: $item
     fi 
 done
+

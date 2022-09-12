@@ -1,4 +1,4 @@
-# syntex:
+# Syntax:
     # select var in list
     # do 
     #     command1
@@ -8,14 +8,14 @@
 
 # - SELECT COMMAND Constructs simple menu from word list. 
 # - It Allows user to enter a number instead of a word. 
-# - So User enters sequence number corresponding to the word.
+# - So, User enters sequence number corresponding to the word.
 
 select country in India USA China Russia Japan
 do 
     echo "$country is Selected :)"
 done 
 
-# we could use select loop with the swith case statement
+# We could use select loop with the switch case statement
 select country in India USA China Russia Japan
 do 
     echo Country : $country
@@ -23,9 +23,11 @@ do
     case $country in 
     India   ) echo New Delhi ;;
     USA     ) echo Washington DC ;;
-    China   ) echo Bejing ;;
+    China   ) echo Beijing ;;
     Russia  ) echo Moscow ;;
     Japan   ) echo Tokyo ;;
     *       ) echo Invalid Input ;;
     esac
 done
+
+
